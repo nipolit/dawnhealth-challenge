@@ -1,0 +1,11 @@
+@ApertureScience.AccelerationMeasurementsIngestion_HostAddress = http://localhost:5031
+
+GET {{ApertureScience.AccelerationMeasurementsIngestion_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ApertureScience.AccelerationMeasurementsIngestion_HostAddress}}/todos/1
+Accept: application/json
+
+###
