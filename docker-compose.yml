@@ -1,0 +1,10 @@
+services:
+  acceleration-measurements-ingestion:
+    image: aperture-science.acceleration-measurements-ingestion
+    build:
+      context: .
+      args:
+        TARGETARCH: x64
+      dockerfile: ApertureScience.AccelerationMeasurementsIngestion/Dockerfile
+    ports:
+      - 5000:5000
